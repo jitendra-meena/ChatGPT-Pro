@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ChatGPT Pro</title>
+    <title>ChatBot Pro</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.0/dist/js.cookie.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -32,7 +32,6 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             background-image: var(--body-bg);
             font-family: Helvetica, sans-serif;
           }
@@ -42,7 +41,6 @@
             flex-flow: column wrap;
             justify-content: space-between;
             width: 100%;
-            max-width: 867px;
             margin: 55px 30px;
             height: calc(100% - 50px);
             border: var(--border);
@@ -169,7 +167,7 @@
       
         <header class="msger-header">
           <div class="msger-header-title">
-            <i class="fas fa-comment-alt"></i> ChatGPT Pro
+            <i class="fas fa-comment-alt"></i> ChatBot Pro
           </div>
           <div class="msger-header-options">
             <a href="{% url 'logout' %}"
@@ -186,12 +184,12 @@
       
             <div class="msg-bubble">
               <div class="msg-info">
-                <div class="msg-info-name">ChatGPT Pro</div>
+                <div class="msg-info-name">ChatBot Pro</div>
                 <div class="msg-info-time"></div>
               </div>
       
               <div class="msg-text">
-                Hi, welcome to ChatGPT Pro! Go ahead and send me a message. 😄
+                Hi, welcome to ChatBot Pro! Go ahead and send me a message. 😄
               </div>
             </div>
           </div>
